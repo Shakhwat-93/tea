@@ -181,16 +181,25 @@ export default function OrderForm({ onSuccess }) {
     } else {
       // ── GA4 Purchase Event ──
       window.dataLayer = window.dataLayer || []
+      window.dataLayer.push({ ecommerce: null }) // clear previous ecommerce object
       window.dataLayer.push({
         event: 'purchase',
+        customer: {
+          name:    name,
+          phone:   phone,
+          address: address,
+        },
         ecommerce: {
           transaction_id: generatedId,
-          value: total,
-          currency: 'BDT',
+          value:          total,
+          currency:       'BDT',
+          shipping:       delObj.charge,
+          shipping_zone:  shippingZone,
           items: [{
+            item_id:   selected,
             item_name: `Healthy Healing Tea - ${pkg.name}`,
-            price: pkg.price,
-            quantity: 1
+            price:     pkg.price,
+            quantity:  1
           }]
         }
       })
