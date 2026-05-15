@@ -1,0 +1,32 @@
+:root{
+  --gold:#e8490f;--gold-l:#f06030;--gold-d:#c93d0a;
+  --green:#e8490f;--green-l:#fef0eb;
+  --red:#c93d0a;
+  --dark:#0f172a;--dark2:#1e293b;
+  --text:#111827;--sub:#4b5563;--muted:#9ca3af;
+  --bg:#fff;--bg2:#f8f9fa;--bg3:#f1f3f5;
+  --border:#e5e7eb;
+  --sh1:0 1px 4px rgba(0,0,0,.06);
+  --sh2:0 4px 20px rgba(0,0,0,.09);
+  --sh3:0 8px 40px rgba(0,0,0,.12);
+  --r:16px;--r2:24px;
+  --fn:'Tiro Bangla',serif;
+  --fe:'Inter',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--fn);line-height:1.85;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+
+.section-label{display:inline-flex;align-items:center;gap:6px;background:#f3f4f6;border:1px solid #e5e7eb;color:#374151;font-family:var(--fe);font-size:12px;font-weight:600;letter-spacing:.5px;padding:5px 14px;border-radius:50px;margin-bottom:14px}
+.section-title{font-size:clamp(22px,4vw,38px);font-weight:800;line-height:1.2;color:var(--text);margin-bottom:10px;text-align:center;font-family:var(--fn)}
+.hl{color:var(--gold)}
+.section-line{width:44px;height:4px;background:var(--gold);border-radius:4px;margin:0 auto 14px;opacity:.7}
+.section-desc{text-align:center;color:var(--sub);font-size:15px;max-width:540px;margin:0 auto 48px;line-height:1.8;font-family:var(--fn)}
+
+.btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--gold);color:#fff;padding:16px 32px;border-radius:50px;font-size:16px;font-weight:700;box-shadow:0 6px 24px rgba(232,73,15,.35);transition:all .25s;cursor:pointer;border:none;font-family:var(--fn);text-decoration:none}
+.btn-primary:hover{background:var(--gold-d);transform:translateY(-2px);box-shadow:0 10px 32px rgba(232,73,15,.45)}
+.btn-outline{display:inline-flex;align-items:center;justify-content:center;background:transparent;color:var(--gold);border:2px solid var(--gold);padding:13px 28px;border-radius:50px;font-size:15px;font-weight:700;transition:all .25s;cursor:pointer;font-family:var(--fn);text-decoration:none;width:100%}
+.btn-outline:hover{background:rgba(232,73,15,.08);transform:translateY(-2px)}
+
