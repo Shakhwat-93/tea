@@ -25,12 +25,12 @@ export default function App() {
       <StatsBar />
       <ProblemSolution />
       <Features />
-      {/* ── Ad Banner ── */}
-      <div style={{ width: '100%', lineHeight: 0, overflow: 'hidden' }}>
+      {/* ── Ad Image ── */}
+      <div style={{ display: 'flex', justifyContent: 'center', padding: '1.5rem 1rem' }}>
         <img
           src="/Tea-ads-7.png"
-          alt="Healthy Healing Tea — Special Offer"
-          style={{ width: '100%', height: 'auto', display: 'block' }}
+          alt="Healthy Healing Tea"
+          style={{ width: '100%', maxWidth: '480px', height: 'auto', borderRadius: '12px', display: 'block' }}
           loading="lazy"
         />
       </div>
