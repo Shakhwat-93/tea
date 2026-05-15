@@ -25,6 +25,15 @@ export default function App() {
       <StatsBar />
       <ProblemSolution />
       <Features />
+      {/* ── Ad Banner ── */}
+      <div style={{ width: '100%', lineHeight: 0, overflow: 'hidden' }}>
+        <img
+          src="/Tea-ads-7.png"
+          alt="Healthy Healing Tea — Special Offer"
+          style={{ width: '100%', height: 'auto', display: 'block' }}
+          loading="lazy"
+        />
+      </div>
       <Ingredients />
       <OrderForm onSuccess={() => setOrdered(true)} />
       <FAQ />
