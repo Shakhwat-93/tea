@@ -2,19 +2,8 @@ import { useState, useEffect } from 'react'
 import styles from './Hero.module.css'
 
 const images = [
-  '/b48106f2-6b69-47da-9e0b-086b27444ea0.webp',
-  '/product-detail-1.webp',
-  '/product-detail-2.webp',
-  '/product-detail-3.webp',
-  '/product-detail-4.webp',
-  '/product-detail-5.webp',
-  '/product-detail-6.webp',
-  '/product-detail-7.webp',
-  '/product-detail-8.webp',
-  '/product-detail-9.webp',
-  '/product-detail-10.webp',
-  '/product-detail-11.webp',
-  '/product-detail-12.webp'
+  '/slider-1.jpeg',
+  '/slider-2.jpeg'
 ]
 
 export default function Hero() {
