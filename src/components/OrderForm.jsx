@@ -5,8 +5,8 @@ import modalStyles from './DuplicateModal.module.css'
 
 const packages = [
   { id: 'starter',  name: 'Starter Pack',          qty: '১০ প্যাক', price: 890,  img: '/b48106f2-6b69-47da-9e0b-086b27444ea0.webp', inStock: true },
-  { id: 'premium',  name: 'Premium Value Pack',     qty: '২০ প্যাক', price: 1540, img: '/b48106f2-6b69-47da-9e0b-086b27444ea0.webp', inStock: true },
-  { id: 'complete', name: 'Complete Wellness Pack',  qty: '৩০ প্যাক', price: 2190, img: '/f1a58b20-898f-4228-ac8e-e7e73b5d4f84.webp', inStock: true },
+  { id: 'premium',  name: 'Premium Value Pack',     qty: '২০ প্যাক', price: 1440, img: '/b48106f2-6b69-47da-9e0b-086b27444ea0.webp', inStock: true },
+  { id: 'complete', name: 'Complete Wellness Pack',  qty: '৩০ প্যাক', price: 1840, img: '/f1a58b20-898f-4228-ac8e-e7e73b5d4f84.webp', inStock: true },
 ]
 
 const DELIVERY = [

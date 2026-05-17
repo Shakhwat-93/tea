@@ -2,8 +2,8 @@ import styles from './Pricing.module.css'
 
 const packages = [
   { icon: '📦', name: 'Starter Pack', qty: '১০ প্যাক', desc: 'টেস্ট করার জন্য পারফেক্ট।', price: '৳ ৮৯০', save: null, best: false, id: 'starter' },
-  { icon: '✨', name: 'Premium Value Pack', qty: '২০ প্যাক', desc: 'নিয়মিত ব্যবহারের জন্য সবচেয়ে জনপ্রিয়।', price: '৳ ১,৫৪০', save: 'সেভ করুন ২৪০ টাকা', best: true, id: 'premium' },
-  { icon: '💎', name: 'Complete Wellness Pack', qty: '৩০ প্যাক', desc: '১ মাসের সম্পূর্ণ কোর্স।', price: '৳ ২,১৯০', save: 'সর্বোচ্চ ডিসকাউন্ট', best: false, id: 'complete' },
+  { icon: '✨', name: 'Premium Value Pack', qty: '২০ প্যাক', desc: 'নিয়মিত ব্যবহারের জন্য সবচেয়ে জনপ্রিয়।', price: '৳ ১,৪৪০', save: 'সেভ করুন ৩৪০ টাকা', best: true, id: 'premium' },
+  { icon: '💎', name: 'Complete Wellness Pack', qty: '৩০ প্যাক', desc: '১ মাসের সম্পূর্ণ কোর্স।', price: '৳ ১,৮৪০', save: 'সর্বোচ্চ ডিসকাউন্ট', best: false, id: 'complete' },
 ]
 
 export default function Pricing() {
